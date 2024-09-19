@@ -1,0 +1,112 @@
+body{
+    background-color:  hsl(226, 43%, 10%);
+    /* overflow: hidden; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.side-card{
+    background-color: hsl(246, 80%, 60%);
+}
+.side-bar{
+    
+    background-color: hsl(235, 46%, 20%);
+    /* background-color: hsl(226, 43%, 10%); */
+}
+
+a{
+    text-decoration: none;
+    color: rgba(220, 220, 220, 0.418);
+    font-size: 1.50rem;
+}
+a:hover{
+color: white;    
+}
+.profile-card {
+    background-color: #5845e3;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .profile-card img {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  /* Time tracking cards */
+  .card-container {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    color: white;
+  }
+
+  .card-top {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .card-top img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .card-bottom {
+    padding: 20px;
+    background-color: hsl(235, 46%, 20%);
+
+
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 3rem;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+  }
+
+  .card-container.work {
+    background-color: hsl(15, 100%, 70%);
+  }
+
+  .card-container.play {
+    background-color: hsl(195, 74%, 62%);
+  }
+  .card-container.study {
+    background-color:  hsl(348, 100%, 68%) ;  
+}
+  .card-container.exercise {
+    background-color:  hsl(145, 58%, 55%) ;  
+}
+  .card-container.social {
+    background-color:  hsl(264, 64%, 52%) ;  
+}
+  .card-container.self-care {
+    background-color:  hsl(43, 84%, 65%) ;  
+}
+
+  /* Ensure cards fill the height */
+  .row.g-3 {
+    align-items: stretch;
+  }
+
+  .attribution{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.50rem;
+  }
